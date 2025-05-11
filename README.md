@@ -116,7 +116,9 @@ The data were merged based on ISBN to form the final dataset, and books with ins
 
 **- Target Libraries**
 
+<p style="margin-left: 100px;">
 The analysis was conducted on the same seven public libraries in Yuseong-gu: Gwanpyeong Library, Gujeok Library, Noeun Library, Jinjam Library, Guam Library, Wonsinheng Library, and Yuseong Library.
+</p>
 
 **- Data Collection Process**
 
@@ -173,14 +175,12 @@ The data analysis confirmed that both hypotheses set in this study are valid.
 </p>
 <p align="center"><sub>각 공공도서관 – 주제분류번호(KDC) 대응분석 결과</sub></p>
 
-각 공공도서관 – 주제분류번호(KDC) 대응분석 결과
 
-**Hypothesis 1: The characteristics of library programs differ from the actual usage requirements of library users. **Correspondence analysis between the “library name” category and the subject classification number (KDC) category was used to verify whether there was a mismatch between user interest topics and program topics.
+**Hypothesis 1: The characteristics of library programs differ from the actual usage requirements of library users.**
+Correspondence analysis between the “library name” category and the subject classification number (KDC) category was used to verify whether there was a mismatch between user interest topics and program topics.
 
 - **Yuseong Library**: Yuseong Library, which had high satisfaction levels, offered programs in areas such as social sciences (KDC 300 range) and technology and science (KDC 500 range)—for example, courses on coding, the metaverse, and virtual reality—that were strongly aligned with user interests.
 - **Gwanpyeong Library**: Gwanpyeong Library, with lower satisfaction, showed a significant mismatch between the user interest topics (history in the KDC 900 range, natural sciences in the KDC 400 range) and the provided program topics (technology and science, philosophy, art), leading to a decline in satisfaction.
-
-각 공공도서관 – 이용대상 대응분석 결과
 
 <p align="center">
   <img src="src/각 공공도서관 – 이용대상 대응분석 결과.png" alt="각 공공도서관 – 이용대상 대응분석 결과" width="800"/>
