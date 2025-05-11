@@ -5,9 +5,6 @@ import pandas as pd
 import time
 import random
 
-# ----------------------------
-# 1. 도서 주제 분류 스크래핑
-# ----------------------------
 
 HEADERS = {
     "User-Agent": (
@@ -47,9 +44,6 @@ def scrape_subject_classification(isbn):
         print(f"[Error] ISBN: {isbn} | {e}")
         return {'ISBN': isbn, 'Subject Classification': None}
 
-# ----------------------------
-# 2. 병렬 실행 함수
-# ----------------------------
 
 def scrape_all_isbns(isbn_list, delay_every=100):
     results = []
@@ -68,9 +62,6 @@ def scrape_all_isbns(isbn_list, delay_every=100):
 
     return pd.DataFrame(results)
 
-# ----------------------------
-# 3. 저장 함수
-# ----------------------------
 
 def save_scraped_results(df, output_path="subject_classifications.xlsx"):
     df.to_excel(output_path, index=False)
