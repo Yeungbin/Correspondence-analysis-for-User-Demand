@@ -20,17 +20,43 @@ Therefore, this analysis focuses on Daejeon City with the aim of laying the grou
 
 For a more tailored analysis, we plan to continue by selecting Yuseong-gu—the administrative district in Daejeon with the poorest performance in library programs. The reasons for this are as follows.
 
-<img></img>
+<!-- 2023 대전시 행정구별 공공도서관 도서관 수 -->
+<p align="center">
+  <img src="src/2023 대전시 행정구별 공공도서관 도서관 수.png" alt="2023 대전시 행정구별 공공도서관 도서관 수" width="400"/>
+</p>
+<p align="center"><sub>2023 대전시 행정구별 공공도서관 도서관 수</sub></p>
+
+<p align="center">
+  <img src="src/2023 대전시 행정구별 공공도서관 이용자 수.png" alt="2023 대전시 행정구별 공공도서관 이용자 수" width="400"/>
+</p>
+<p align="center"><sub>2023 대전시 행정구별 공공도서관 이용자 수</sub></p>
+
+<p align="center">
+  <img src="src/2023 대전시 행정구별 공공도서관 프로그램 수.png" alt="2023 대전시 행정구별 공공도서관 프로그램 수" width="400"/>
+</p>
+<p align="center"><sub>2023 대전시 행정구별 공공도서관 프로그램 수</sub></p>
 
 From a program accessibility perspective, the 2023 National Library Statistics show that Yuseong-gu leads Daejeon with the most public libraries and a top user count.
 
 However, Yuseong-gu suffers from a severe lack of public library programs. Despite having more libraries and higher user counts than Daedeok-gu, it offers fewer programs. Similarly, even though Jung-gu has fewer libraries, the presence of the Daejeon Student Education and Culture Center—which offers many programs—and Hanbat Library, essentially Daejeon’s central library, further highlights that Yuseong-gu ranks low in program offerings despite its strong figures.
 
-<img></img>
+<p align="center">
+  <img src="src/유성구 공공도서관 만족도 조사.png" alt="유성구 공공도서관 만족도 조사" width="400"/>
+</p>
+<p align="center"><sub>유성구 공공도서관 만족도 조사</sub></p>
 
 In Yuseong-gu, the satisfaction with public library programs is also low. The results of the satisfaction surveys conducted in 2022 and 2023 for Yuseong-gu public libraries reveal that satisfaction with library programs is noticeably lower compared to other areas of the library.
 
-<img>
+<p align="center">
+  <img src="src/2023 유성구 도서관별 온오프라인 프로그램 실시 횟수.png" alt="2023 유성구 도서관별 온오프라인 프로그램 실시 횟수" width="600"/>
+</p>
+<p align="center"><sub>2023 유성구 도서관별 온/오프라인 프로그램 실시 횟수</sub></p>
+
+<p align="center">
+  <img src="src/2023 유성구 도서관별 온오프라인 프로그램 이용자 수.png" alt="2023 유성구 도서관별 온오프라인 프로그램 이용자 수" width="600"/>
+</p>
+<p align="center"><sub>2023 유성구 도서관별 온/오프라인 프로그램 이용자 수</sub></p>
+
 
 Furthermore, over half of the libraries in Yuseong-gu show a mismatch between the proportion of programs offered and the proportion of participants, indicating a supply-demand gap. The 2023 Library Statistics classify programs into four types: Culture Programs – Courses, Culture Programs – One-time events, Library and Reading Programs – Courses, and Library and Reading Programs – One-time events. In four of the seven libraries—Gwanpyeong, Gujeok, Noeun, and Jinjam—the ratios of events held to participants differ, suggesting that the program offerings do not meet the residents’ desires, which may contribute to lower satisfaction.
 
@@ -142,6 +168,10 @@ Based on these mismatch case analysis results, the study verified two hypotheses
 
 The data analysis confirmed that both hypotheses set in this study are valid.
 
+<p align="center">
+  <img src="src/각 공공도서관 – 주제분류번호(KDC) 대응분석 결과.png" alt="각 공공도서관 – 주제분류번호(KDC) 대응분석 결과" width="800"/>
+</p>
+<p align="center"><sub>각 공공도서관 – 주제분류번호(KDC) 대응분석 결과</sub></p>
 
 각 공공도서관 – 주제분류번호(KDC) 대응분석 결과
 
@@ -152,6 +182,11 @@ The data analysis confirmed that both hypotheses set in this study are valid.
 
 각 공공도서관 – 이용대상 대응분석 결과
 
+<p align="center">
+  <img src="src/각 공공도서관 – 이용대상 대응분석 결과.png" alt="각 공공도서관 – 이용대상 대응분석 결과" width="800"/>
+</p>
+<p align="center"><sub>각 공공도서관 – 이용대상 대응분석 결과</sub></p>
+  
 **Hypothesis2 : The library programs are targeted toward groups other than the actual library users.**
 Correspondence analysis between the “library name” category and the target audience category was performed to verify the alignment between the main user base and the program target audience.
 
