@@ -75,7 +75,7 @@ A total of 226,129 records were collected, with the key attributes being:
 
 
 
-** Acquisition of Additional Attributes**
+**Acquisition of Additional Attributes**
 
 To analyze the attributes of popular books in greater detail, detailed subject classification values for each book were additionally collected from the Aladdin online bookstore. Based on Aladdin’s subject classifications, the book attributes were reclassified into the following four categories:
 
@@ -104,67 +104,85 @@ Using the “Monthly Event Announcement” menu on the Yuseong-gu Integrated Lib
 - **Online/Offline Status**: The format in which the program was conducted
 
 A total of 92 program records were secured, providing a foundational dataset for analyzing the relationship between program themes and target age groups.
-Final Dataset Overview
 
-Role of Book Data
-The book data was used to understand the primary interests and preferences of library users.
-By utilizing the KDC subject classification numbers, we analyzed which fields (e.g., social sciences, technology and science) users at each library are interested in.
-Additionally, the Aladdin subject classification data was employed to further categorize users’ interests in greater detail.
-Role of Program Data
-The program data was used to analyze the attributes of the programs provided by each library.
-We compared how well the target age groups and themes of each program align with the characteristics of the library user base.
-We verified whether the number and types of programs are sufficient to meet the demands of the primary user group.
-Final Dataset Composition and Preparation
-To visualize and interpret the analysis results, the book data and program data for each library were mapped together to derive the final outcomes.
-Through data cleaning, missing or duplicate data were removed, and the dataset was processed into a form suitable for correspondence analysis to examine relationships between categorical variables.
-Data Analysis
+**Final Dataset Overview**
+
+  - **Role of Book Data**
+    - The book data was used to understand the primary interests and preferences of library users.
+    - By utilizing the KDC subject classification numbers, we analyzed which fields (e.g., social sciences, technology and science) users at each library are interested in.
+    - Additionally, the Aladdin subject classification data was employed to further categorize users’ interests in greater detail.
+  - Role of Program Data
+    - The program data was used to analyze the attributes of the programs provided by each library.
+    - We compared how well the target age groups and themes of each program align with the characteristics of the library user base.
+    - We verified whether the number and types of programs are sufficient to meet the demands of the primary user group.
+  - Final Dataset Composition and Preparation
+    -   To visualize and interpret the analysis results, the book data and program data for each library were mapped together to derive the final outcomes.
+    -   Through data cleaning, missing or duplicate data were removed, and the dataset was processed into a form suitable for correspondence analysis to examine relationships between categorical variables.
+   
+    
+### 3-5. Data Analysis
+
 Correspondence Analysis
 
 Correspondence Analysis is a dimensionality reduction technique that visually represents relationships between categorical variables using a contingency table. Each category is plotted as a point, with the distance between points indicating their similarity or difference. This method enables a visual examination of how library users’ preferred topics relate to program attributes, revealing any mismatches, and simplifying complex data to clearly show patterns and correlations.
 We employed Correspondence Analysis to visually explore the correlations in categorical data. By using loan frequency as a measure of each library’s usage demands and analyzing attributes of popular books (such as subject classification numbers, academic fields, target audiences, interests, and genres), we identified each library’s usage demands and determined whether a mismatch exists between the programs and user needs.
 
-Result
-Mismatch Case Analysis
+## 4.Result
+
+### 4-1. Mismatch Case Analysis
+
 The analysis revealed significant differences in the alignment between program supply and demand at Gwanpyeong Library and Yuseong Library.
 
-Gwanpyeong Library: It was observed that the user interest topics—such as history (KDC 900 range) and literature (KDC 800 range)—differ significantly from the program topics actually offered. The programs focus on areas like technology and science, philosophy, and art, which fail to reflect the demands of the users.
-Yuseong Library: In contrast, Yuseong Library demonstrated a high correlation between user interest topics and program topics, resulting in high satisfaction. Programs addressing social sciences (KDC 300 range) and technology and science (KDC 500 range) effectively met user demands.
+1. **Gwanpyeong Library**: It was observed that the user interest topics—such as history (KDC 900 range) and literature (KDC 800 range)—differ significantly from the program topics actually offered. The programs focus on areas like technology and science, philosophy, and art, which fail to reflect the demands of the users.
+2. **Yuseong Library**: In contrast, Yuseong Library demonstrated a high correlation between user interest topics and program topics, resulting in high satisfaction. Programs addressing social sciences (KDC 300 range) and technology and science (KDC 500 range) effectively met user demands.
+
 Based on these mismatch case analysis results, the study verified two hypotheses and derived directions for improvement.
 
-Hypothesis Verification
+### 4-2. Hypothesis Verification
+
 The data analysis confirmed that both hypotheses set in this study are valid.
 
 
 각 공공도서관 – 주제분류번호(KDC) 대응분석 결과
-Hypothesis 1: The characteristics of library programs differ from the actual usage requirements of library users. Correspondence analysis between the “library name” category and the subject classification number (KDC) category was used to verify whether there was a mismatch between user interest topics and program topics.
 
-Yuseong Library: Yuseong Library, which had high satisfaction levels, offered programs in areas such as social sciences (KDC 300 range) and technology and science (KDC 500 range)—for example, courses on coding, the metaverse, and virtual reality—that were strongly aligned with user interests.
-Gwanpyeong Library: Gwanpyeong Library, with lower satisfaction, showed a significant mismatch between the user interest topics (history in the KDC 900 range, natural sciences in the KDC 400 range) and the provided program topics (technology and science, philosophy, art), leading to a decline in satisfaction.
+**Hypothesis 1: The characteristics of library programs differ from the actual usage requirements of library users. **Correspondence analysis between the “library name” category and the subject classification number (KDC) category was used to verify whether there was a mismatch between user interest topics and program topics.
+
+- **Yuseong Library**: Yuseong Library, which had high satisfaction levels, offered programs in areas such as social sciences (KDC 300 range) and technology and science (KDC 500 range)—for example, courses on coding, the metaverse, and virtual reality—that were strongly aligned with user interests.
+- **Gwanpyeong Library**: Gwanpyeong Library, with lower satisfaction, showed a significant mismatch between the user interest topics (history in the KDC 900 range, natural sciences in the KDC 400 range) and the provided program topics (technology and science, philosophy, art), leading to a decline in satisfaction.
 
 각 공공도서관 – 이용대상 대응분석 결과
-Hypothesis2 : The library programs are targeted toward groups other than the actual library users.
+
+**Hypothesis2 : The library programs are targeted toward groups other than the actual library users.**
 Correspondence analysis between the “library name” category and the target audience category was performed to verify the alignment between the main user base and the program target audience.
 
-Yuseong Library: Analysis indicated that Yuseong Library’s main user groups were elementary school students and adults, and it predominantly offered programs targeting these age groups, which corresponded with high satisfaction.
-Gwanpyeong Library: Although the primary user base at Gwanpyeong Library included adults and children (preschoolers and elementary students), there was a notable deficiency in programs targeted at adults. This mismatch between the primary user base and the program target age groups can be interpreted as a contributing factor to lower satisfaction.
-Program Improvement Directions by Library
+- Yuseong Library: Analysis indicated that Yuseong Library’s main user groups were elementary school students and adults, and it predominantly offered programs targeting these age groups, which corresponded with high satisfaction.
+- Gwanpyeong Library: Although the primary user base at Gwanpyeong Library included adults and children (preschoolers and elementary students), there was a notable deficiency in programs targeted at adults. This mismatch between the primary user base and the program target age groups can be interpreted as a contributing factor to lower satisfaction.
+
+
+### 4-3. Program Improvement Directions by Library
+
 Based on the results of the hypothesis verification, program improvement directions for each library have been proposed.
 
-Gwanpyeong Library
+**Gwanpyeong Library**
 
-Increase Programs for Adults: It is necessary to raise the proportion of programs designed for adults, who constitute the main user group, and to additionally introduce programs related to childcare and education.
-Launch Programs Reflecting User Interests: Programs covering history (KDC 900 range) and natural sciences (KDC 400 range) should be increased to strengthen the connection with user interests.
-Gujeok Library
+- **Increase Programs for Adult**s: It is necessary to raise the proportion of programs designed for adults, who constitute the main user group, and to additionally introduce programs related to childcare and education.
+- **Launch Programs Reflecting User Interests**: Programs covering history (KDC 900 range) and natural sciences (KDC 400 range) should be increased to strengthen the connection with user interests.
+  
+**Gujeok Library**
 
-Add Programs for Preschool Children: Since only programs targeting elementary students are currently offered, it is necessary to introduce programs for preschool children to better meet the demands of the main user group.
-Noeun Library
+- **Add Programs for Preschool Children**: Since only programs targeting elementary students are currently offered, it is necessary to introduce programs for preschool children to better meet the demands of the main user group.
 
-Increase Programs for Children: Programs reflecting the interests of children (including preschoolers and elementary students), such as literature and educational books, need to be strengthened.
-Plan Literature-Centered Programs: Programs aimed at the overall user base should focus on literature, particularly family and children’s literature.
-Jinjam Library
+**Noeun Library**
 
-Increase Math/Science-Focused Programs: Programs should be planned around math and science, which are the main interests, and additional programs targeting various age groups should be developed.
-Provide Age-Specific Tailored Programs: The proportion of programs aimed at children and elementary students should be expanded to satisfy user demands.
-Implications
+- **Increase Programs for Children**: Programs reflecting the interests of children (including preschoolers and elementary students), such as literature and educational books, need to be strengthened.
+- **Plan Literature-Centered Programs**: Programs aimed at the overall user base should focus on literature, particularly family and children’s literature.
+  
+**Jinjam Library**
+
+- **Increase Math/Science-Focused Programs**: Programs should be planned around math and science, which are the main interests, and additional programs targeting various age groups should be developed.
+- **Provide Age-Specific Tailored Programs**: The proportion of programs aimed at children and elementary students should be expanded to satisfy user demands.
+
+### 4-4. Implications
+
 The findings of this study suggest that tailoring the direction of public library programs regionally can contribute to alleviating cultural imbalances in local areas. This methodology is applicable to public libraries in other regions and can be used to enhance regional cultural development and increase resident satisfaction.
 
