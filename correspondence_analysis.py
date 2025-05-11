@@ -9,10 +9,6 @@ from tabulate import tabulate
 from config import FINAL_DATA_PATH
 
 
-# ----------------------------
-# 데이터 정리 함수들
-# ----------------------------
-
 def elementary_standardize(value):
     if pd.isna(value):
         return None
@@ -56,10 +52,6 @@ def adjust_academic_field(value):
     }
     return replacements.get(value, value)
 
-
-# ----------------------------
-# 대응분석 및 시각화
-# ----------------------------
 
 def perform_correspondence_analysis(df, row_dim='Interests and Preferences', col_dim='도서관명'):
     print(f"[INFO] Performing CA for: {row_dim} vs {col_dim}")
