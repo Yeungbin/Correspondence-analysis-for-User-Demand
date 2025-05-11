@@ -1,8 +1,5 @@
 import pandas as pd
 
-# ----------------------------
-# 1. 텍스트 치환 함수
-# ----------------------------
 
 def replace_academic_keywords(text):
     replacements = {
